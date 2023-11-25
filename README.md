@@ -205,4 +205,4 @@ Simply delete the folder, and you have uninstalled it.
 
 ## Contact
 
-Whilst I am available primarily on [my server](https://discord.gg/xRrHRsb5e9), please check the [issues](https://github.com/The-Animonculory/ADT/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
+Whilst I am available primarily on [my server](https://discord.gg/xRrHRsb5e9), please check the [issues](https://github.com/Althro/ADT/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
