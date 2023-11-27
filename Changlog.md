@@ -1,5 +1,13 @@
 # Changelog
 
+## 5.1
+### Updated
+- Mod Organizer
+
+### Added
+- MO2 Audio Player Plugin
+- NIF Preview
+
 ## Althro's Dev Tools Version 5.0 - "The Re-Engineering"
 - Rebuild of list to utilise both Root Builder and Stock Game
 - Updated plugins which required updating
