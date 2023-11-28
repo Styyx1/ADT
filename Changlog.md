@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.1.1
+### Notes
+- Rebuilt entirely in new MO2 version to ensure compatability and category data was working.
+- No other changes.
+
 ## 5.1
 ### Updated
 - Mod Organizer
