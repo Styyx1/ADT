@@ -1,14 +1,14 @@
 # Althro's Dev Tools (ADT)
 
-![image](https://raw.githubusercontent.com/The-Animonculory/ADT/main/.github/ADTBanner.webp)
+![image](https://raw.githubusercontent.com/Althro/ADT/main/Resources/ADTNew.webp)
 
 Wabbajack Modlist Installer by Althro
 
 <table stlyle="border: none;">
 <tr>
-<td><img src="https://raw.githubusercontent.com/The-Animonculory/AVO/main/.github/WJIcon.png" width="64px" /></td>
+<td><img src="https://raw.githubusercontent.com/Althro/ADT/main/Resources/WJIcon.png" width="64px" /></td>
 <td><a href="https://github.com/wabbajack-tools/wabbajack/releases">Download on Wabbajack</a></td>	
-<td><img src="https://raw.githubusercontent.com/The-Animonculory/ADT/main/.github/AMLogo.webp" width="72px" /></td>
+<td><img src="https://raw.githubusercontent.com/Althro/ADT/main/Resources/AMLogo.webp" width="72px" /></td>
 <td><a href="https://discord.gg/aetherius-modding"><img alt="Discord" src="https://img.shields.io/discord/1132691434420576337?style=for-the-badge&label=Aetherius%20Modding"></a></td>
 </tr>
 </table>
@@ -50,7 +50,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### Disclaimer
 
-Owing to the need to clean master files and certain errors with Wabbajack, AVO only supports **English Steam** versions of Skyrim AE. **GOG and other Languages are not supported**.
+⚠️ **Due to the recent update of Skyrim and the Creation Kit by Bethesda, ADT patches the game files to 1.6.640 and the older version of the Creation Kit.** ⚠️
+
+**GOG and other Languages aside from English are not supported at present**.
 
 Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK**.
 
