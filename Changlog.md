@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.2
+### Notes
+- **Likely to be the last version to support steam. Future versions may go GOG exclusive.**
+- Compiled against latest version of Skyrim and Creation Kit to allow for WJ auto-downgrades.
+- Updated: Address Library, Faster HDT, KILoader, SPID.
+
 ## 5.1.1
 ### Notes
 - Rebuilt entirely in new MO2 version to ensure compatability and category data was working.
