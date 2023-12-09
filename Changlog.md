@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.1.3
+### Notes
+- Fixed issue with CC content not being updated. This *should* fix the install issues.
+- Updated: XPMSSE
+
 ## 5.1.2
 ### Notes
 - **Likely to be the last version to support steam. Future versions may go GOG exclusive.**
