@@ -1,9 +1,37 @@
 # Changelog
 
+## 5.1.4
+### Notes
+- Fixed issue with CC content being required to download list
+- Updated BSA files to be on latest version to enable quicker install/compile (this has no effect on the game)
+
+### Updated
+- Auto Input Switch,
+- Community Shaders,
+- ConsoleUtilSSE,
+- Crashlogger,
+- Faster HDT-SMP,
+- Grass Lighting,
+- IED,
+- Native EditorID Fix,
+- SPID,
+- SSE Display Tweaks,
+- Scaleform Translation++,
+- Simple Dual Sheath,
+- Sound Record Distributor,
+- Sprint Sneak Movement Fix
+
+### Added
+- ENB Light Detection Fix
+
 ## 5.1.3
 ### Notes
 - Fixed issue with CC content not being updated. This *should* fix the install issues.
 - Updated: XPMSSE
+
+## Older Versions
+
+<Details>
 
 ## 5.1.2
 ### Notes
@@ -30,9 +58,7 @@
 - Re-Added a few mods to bring it in line with AVO-RE (Coming soon)
 - Sectioned off more bits to make it easier to enable/disable areas you don't want to use.
 
-## Older Versions
 
-<Details>
 
 ## 4.2
 **Updated** 
