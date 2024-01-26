@@ -1,5 +1,16 @@
 # Changelog
 
+## 5.2
+### Updated
+- Address Library
+- SPID
+- ConsoleUtil NG
+- Keyword Item Distributor
+- Sound Record Distributor
+- Complete Widescreen Fix
+- SMP Wind
+- Weapon Styles for IED
+
 ## 5.1.4
 ### Notes
 - Fixed issue with CC content being required to download list
