@@ -1,5 +1,15 @@
 # Changelog
 
+## 6.0 - "I'm back"
+
+### Key Information
+- Complete rebuild utilising parts of Anvil and the older 5.x build
+- Updated Engine to be running 1.6.1170
+- Updated Creation Kit integration to utilise CK Platform Extended
+- Added in some extra mods to provide a more rounded toolkit
+- Updated nigh on **every** mod in the list.
+- Ofc, **Not Save Safe** but this is a tools list. It's not intended to play with.
+
 ## 5.2
 ### Updated
 - Address Library
