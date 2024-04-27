@@ -50,9 +50,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### Disclaimer
 
-⚠️ **Due to the recent update of Skyrim and the Creation Kit by Bethesda, ADT patches the game files to 1.6.640 and the older version of the Creation Kit.** ⚠️
-
-**GOG and other Languages aside from English are not supported at present**.
+**GOG and other Languages aside from English are not supported due to the cleaning of master files.**.
 
 Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK**.
 
@@ -60,7 +58,7 @@ Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, light
 
 If you can run the vanilla game, you can run ADT.
 
-**NOTE**: You need to have **.NET V8** and **Java Runtime Environment** installed to make the full use of this list.
+**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list.
 
 Space required: Approx 18GB (downloads included).
 
@@ -72,16 +70,17 @@ Installing ADT is relatively easy and, if you have Nexus Premium, will be a simp
 
 Prior to installing ADT, please complete the following steps.
 
-1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v5 desktop x64](https://dotnet.microsoft.com/download/dotnet/5.0/runtime).
+1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe), [.Net Runtime v5 desktop x64](https://dotnet.microsoft.com/download/dotnet/5.0/runtime) & [.Net 7 Desktop runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
 3. Fully uninstall Skyrim by deleting the folder and the Skyrim Special edition folder inside \Documents\My Games\.
 4. Fully disable OneDrive and any other programs which hook into user file areas.
 5. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location. If you only have one drive, look into LostDragonist's [SteamLibrary tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide).
 6. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
-7. Install the [Creation Kit on steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
-8. Run it once and select `NO` when it asks about unpacking scripts. They are handled by ADT already.
-9. Close the creation kit and continue with the installation steps.
-10. Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
+7. Launch the game to the main menu and allow it to download the paid addon files.
+8. Install the [Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
+9. Run it once and select `Yes` when it asks about unpacking scripts.
+10. Close the creation kit and continue with the installation steps.
+11. Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
 
 ### Wabbajack Installation
 
@@ -107,6 +106,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 - Could not download x:
 	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
 	- **Make sure you have downloaded the Creation Kit!**
+ 	- **Make sure your version of Rare Curios is from within the Game**
 
 - x is not a whitelisted download:
 
@@ -134,7 +134,7 @@ You will need to use BethINI to set your monitors screen resolution. If you don�
 
 ### Post Processing
 
-ADT included both Community Shaders and ENB for you to utilise. The list uses Root Builder and Stock Game so please bear that in mind.
+ADT includes ENB for you to utilise whislt testing or to develop with. The list uses Root Builder and Stock Game so please bear that in mind.
 
 ## Playing the List
 
@@ -183,13 +183,13 @@ The following tools are presnt in ADT:
 - CLibrary
 - Champolion
 - Creation Kit
-- Creature Behaviour Generator
 - Dylbills Papyrus Functions
 - ENB Manager
 - Fallrim Tools
 - MCM Helper SDK
 - NifSkope
 - Octagon
+- Pandora Behaviour Engine
 - SNIFF
 - SSE Nif Optimizer
 - Synthesis
@@ -202,7 +202,6 @@ Simply delete the folder, and you have uninstalled it.
 
 - _YOU_ for reading this.
 - The Aetherius Modding Team.
-- Sr Kaio for testing
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are you.
 
 ## Contact
