@@ -3,7 +3,7 @@
 ## 7.0 - 2 game versions 1 list 
 
 ### Key Information:
-- optional stock game for Game verion 1.5.97
+- optional profile for Game verion 1.5.97 - select SKSE 1.5 to run it, obviously
 - should work well thanks to root builder
 - mods named with v15/15 are for 1.5.97 i just avoided ``.`` to not cause issues with modding tools
 - Mod Updates
