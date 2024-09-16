@@ -1,5 +1,48 @@
 # Changelog
 
+## 7.0 - 2 game versions 1 list 
+
+### Key Information:
+- optional stock game for Game verion 1.5.97
+- should work well thanks to root builder
+- mods named with v15/15 are for 1.5.97 i just avoided ``.`` to not cause issues with modding tools
+- Mod Updates
+- MO2 Update
+- A few mod removals i thought wouldn't really be needed for mod making
+
+### Updates:
+- MO2
+- USSEP
+- USMP
+- PO3 Tweaks
+- PO3 Papyrus Extender
+- Crashlogger
+- Conjuration Limit Fix
+- More Informative Console
+- Photomode
+- Better Third Person Selection
+- Show My Time
+- Base Object Swapper
+- FormList Manipulator
+- Custom Skill Framework
+- ResourcePack fixes
+- Particle Patch for ENB (no fomod, BSA version)
+- Assorted Mesh Fixes
+- Dylbills Papyrus Functions
+- Pyramid Utils
+
+### Removed:
+- Crafting Recipe Distributer
+- Dyndolod NG dll
+- Dyndolod Resources
+- More HUD
+- More HUD Inventory Edition
+
+### Added:
+- Leveled List Crash Prevention
+
+
+
 ## 6.0 - "I'm back"
 
 ### Key Information

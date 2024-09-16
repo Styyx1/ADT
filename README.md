@@ -74,11 +74,12 @@ Prior to installing ADT, please complete the following steps.
 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
 3. Fully uninstall Skyrim by deleting the folder and the Skyrim Special edition folder inside \Documents\My Games\.
 4. Fully disable OneDrive and any other programs which hook into user file areas.
-5. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location. If you only have one drive, look into LostDragonist's [SteamLibrary tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide).
+5. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location. If you only have one drive, look into LostDragonist's [SteamLibrary tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide).\
+ !! You can skip this step if you already have a clean skyrim installation !!
 6. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
 7. Launch the game to the main menu and allow it to download the paid addon files.
 8. Install the [Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
-9. Run it once and select `Yes` when it asks about unpacking scripts.
+9.  Run it once and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
 10. Close the creation kit and continue with the installation steps.
 11. Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
 
@@ -134,7 +135,7 @@ You will need to use BethINI to set your monitors screen resolution. If you donâ
 
 ### Post Processing
 
-ADT includes ENB for you to utilise whislt testing or to develop with. The list uses Root Builder and Stock Game so please bear that in mind.
+ADT includes ENB for you to utilise whilst testing or to develop with. The list uses Root Builder and Stock Game so please bear that in mind.
 
 ## Playing the List
 
@@ -150,11 +151,11 @@ Make sure the dropdown box on the right is set to `SKSE` and press the `Run` but
 	
 ## Adding mods to ADT
 
-All the tools you require to add mods to this list are included in the download. If you want some general tips on how to safely mod, visit our [Modding Tutorials](https://github.com/The-Animonculory/Modding-Resources) repository.
+All the tools you require to add mods to this list are included in the download. If you want some general tips on how to safely mod, visit our [Modding Tutorials](https://github.com/The-Animonculory/Modding-Resources) repository. Adding mods is your own responsibility and I will not provide any type of support for that whatsoever.
 
 ### Anniversary Edition
 
-ADT supports the latest verison of Skyrim, but **does not require** the paid update. If you wish to use the paid creation club content, simply add it to the list and then resolve any conflicts that may appear.
+ADT supports the latest verison of Skyrim, but **does not require** the paid update. If you still want to use it, see [Adding mods to ADT](##Adding-mods-to-ADT).
 
 ## Updating the modlist
 
@@ -166,7 +167,7 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 ### What's the difference between ADT and Skyrim Modding Essentials (SME)?
 
-SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. ADT is for mod-authors who want a blank canvas to build/test their creations on in a 1.6.xx environment. Whilst there is some overlap, they are aimed at different audiences. Plus, Phoenix is a friend and we don't compete :)
+SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. ADT is for mod-authors who want a blank canvas to build/test their creations on 2 game versions. Whilst there is some overlap, they are aimed at different audiences.
 
 ### Why is the SkyUI SDK not included?
 
@@ -200,10 +201,11 @@ Simply delete the folder, and you have uninstalled it.
 
 ## Credits and Thanks
 
+- Althro for allowing me to continue to work on it.
 - _YOU_ for reading this.
 - The Aetherius Modding Team.
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are you.
 
 ## Contact
 
-Whilst I am available primarily on [my server](https://discord.gg/xRrHRsb5e9), please check the [issues](https://github.com/Althro/ADT/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
+Whilst I am available primarily on [Aetherius Modding](https://discord.gg/xRrHRsb5e9), please check the [issues](https://github.com/The-Animonculory/ADT/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
