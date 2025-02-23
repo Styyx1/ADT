@@ -44,13 +44,19 @@ Wabbajack Modlist Installer by Althro and Styyx
 - [FAQ](#faq)
   - [Some downloaded files have a red triangle, is that normal?](#some-downloaded-files-have-a-red-triangle-is-that-normal)
   - [What's the difference between ADT and Skyrim Modding Essentials (SME)?](#whats-the-difference-between-adt-and-skyrim-modding-essentials-sme)
+  - [Can I use ADT as a base for my modlist?](#can-i-use-adt-as-a-base-for-my-modlist)
+  - [The game starts zoomed in](#the-game-starts-zoomed-in)
+  - [No valid Game Data with mods in ADT:](#no-valid-game-data-with-mods-in-adt)
+  - [How can I improve performance of the list?](#how-can-i-improve-performance-of-the-list)
   - [Why is the SkyUI SDK not included?](#why-is-the-skyui-sdk-not-included)
   - [What tools does ADT come with?](#what-tools-does-adt-come-with)
+  - [Toggle UI hotkey?](#toggle-ui-hotkey)
 - [Removing the Modlist](#removing-the-modlist)
 - [Credits and Thanks](#credits-and-thanks)
+- [Support](#support)
 
 ## Preamble
-Designed to be the mod author's tool kit, Althro's Dev tools comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libaries to build plugins with, a fully patched creation kit and post processing libraries, it's the ideal playground to both work and build on.
+Designed to be the mod author's tool kit, Althro's Dev tools comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libaries to build plugins with, a fully patched creation kit and modding libraries, it's the ideal playground to both work and build on.
 
 And to prevent any confusion, ADT does use the version 1.6.1170 of Skyrim.
 
@@ -62,13 +68,13 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 **GOG and other Languages aside from English are not supported due to how Wabbajack works.**.
 
-Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant **MAY NOT WORK** and I definitely don't bother supporting any of that.
+Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY NOT WORK** and I definitely don't bother supporting any of that.
 
 ***
 
 If you can run the vanilla game, you can run ADT.
 
-**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that .NET V9 will work as well, but I don't know.
+**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that **.NET V9** will work as well, but I don't know.
 
 Space required: Approx 19GB (downloads included).
 
@@ -109,7 +115,7 @@ Downloading and installing ADT can take a while depending on your internet conne
 4. The download location does not need to be on a SSD but it makes installing a bit faster.
 5. Press the play button to begin.
 6. Go and read through this readme again.
-7. If the installation is successful, jump for joy and move onto [post installation](#post-installation). If the installation is unsuccessful, follow what is below.
+7. If the installation is successful, move onto [post installation](#post-installation). If the installation is unsuccessful, follow what is below.
 
 ##### Problems with installation
 It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
@@ -155,7 +161,7 @@ All the tools you require to add mods to this list are included in the download.
 
 ### Anniversary Edition
 
-ADT supports the latest verison of Skyrim, but **does not require** the paid update. If you still want to use it, see [Adding mods to ADT](##Adding-mods-to-ADT).
+ADT supports the latest verison of Skyrim, but **does not require** the paid update and also does not include it. If you still want to use it, see [Adding mods to ADT](##Adding-mods-to-ADT).
 
 ## Updating the modlist
 
@@ -167,15 +173,31 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 ### Some downloaded files have a red triangle, is that normal?
 
-Yes, this basically just means that the mod was not downloaded from nexus so mo2 doesn't fully know where the mod came from.
+Yes, this basically just means that the mod was not downloaded from nexus so MO2 doesn't fully know where the mod came from.
 
 ### What's the difference between ADT and Skyrim Modding Essentials (SME)?
 
-SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. ADT is for mod-authors who want a blank canvas to build/test their creations on 2 game versions. Whilst there is some overlap, they are aimed at different audiences.
+SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. ADT is for mod-authors who want a blank canvas to build/test their creations on. Whilst there is some overlap, they are aimed at different audiences.
+
+### Can I use ADT as a base for my modlist?
+
+Yes you can, but I would recommend using Skyrim Modding Essentials (SME) for that as it is made for that very purpose.
+
+### The game starts zoomed in
+
+Adjust your resolution with either BethINI Pie or SSE Display Tweaks
+
+### No valid Game Data with mods in ADT:
+
+This just means MO2 does not know the location of the files is still valid even if they're not in the data folder or the mod is meant as a resource so it doesn't actually need to be loaded anyway. That's not an issue no matter what and you can safely ignore it.
+
+### How can I improve performance of the list?
+
+Literally by getting a better PC. This list comes with only vanilla visuals and that means you'd struggle running the vanilla game already
 
 ### Why is the SkyUI SDK not included?
 
-Due to errors with downloading the file from google drive, it's not included. If you want to make MCM stuff, you can get it from [this link](https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?usp=sharing&resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ) and install it as shown in the picture below.
+Due to errors with downloading the file from google drive, it's not included. If you want to make MCM stuff, you can get it from [this link](https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?usp=sharing&resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ) and install it, but this is not a supported action, just some information in case you need the SkyUI SDK.
 
 ### What tools does ADT come with?
 
@@ -198,8 +220,12 @@ ADT also comes with various dev libraries like:
 - MCM Helper SDK
 - Dylbills Papyrus Functions
 
+### Toggle UI hotkey?
+Num-
+
+
 ## Removing the Modlist
-Simply delete the folder the modlist is in, and you have uninstalled it.
+Simply delete the folder the modlist is in and you have uninstalled it.
 
 ## Credits and Thanks
 
@@ -207,3 +233,7 @@ Simply delete the folder the modlist is in, and you have uninstalled it.
 - _YOU_ for reading this.
 - The Aetherius Modding Team.
 - Halgari and everyone the WJ Team.
+
+## Support 
+
+Ideally you'd need nothing but this readme to install the list and get started. If I forgot something, please ask in the linked discord server or in the issue tab here on GitHub. I do not offer support for anything I have already written here.
