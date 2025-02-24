@@ -60,6 +60,8 @@ Designed to be the mod author's tool kit, Althro's Dev tools comes with everythi
 
 And to prevent any confusion, ADT does use the version 1.6.1170 of Skyrim.
 
+Full list of mods used can be found [here](https://loadorderlibrary.com/lists/adt)
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 ## System Requirements
