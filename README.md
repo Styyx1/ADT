@@ -1,7 +1,7 @@
 <!-- omit from toc -->
-# Althro's Dev Tools (ADT)
+# Styyx Tooling for Dev (STD)
 
-![image](https://raw.githubusercontent.com/Althro/ADT/main/Resources/ADTNew.webp)
+![image](https://github.com/Styyx1/ADT/blob/main/Resources/NewTitle.webp?raw=true)
 
 Wabbajack Modlist Installer by Althro and Styyx
 
@@ -31,34 +31,33 @@ Wabbajack Modlist Installer by Althro and Styyx
   - [Pre-Installation](#pre-installation)
   - [Wabbajack Installation](#wabbajack-installation)
     - [Installing Wabbajack](#installing-wabbajack)
-    - [Downloading and Installing ADT](#downloading-and-installing-adt)
+    - [Downloading and Installing STD](#downloading-and-installing-std)
       - [Problems with installation](#problems-with-installation)
 - [Post-Installation](#post-installation)
   - [BethINI Pie](#bethini-pie)
 - [Playing the List](#playing-the-list)
   - [Starting up the list](#starting-up-the-list)
-  - [In-Game MCM options](#in-game-mcm-options)
-- [Adding mods to ADT](#adding-mods-to-adt)
+- [Adding mods to STD](#adding-mods-to-std)
   - [Anniversary Edition](#anniversary-edition)
 - [Updating the modlist](#updating-the-modlist)
 - [FAQ](#faq)
   - [Some downloaded files have a red triangle, is that normal?](#some-downloaded-files-have-a-red-triangle-is-that-normal)
-  - [What's the difference between ADT and Skyrim Modding Essentials (SME)?](#whats-the-difference-between-adt-and-skyrim-modding-essentials-sme)
-  - [Can I use ADT as a base for my modlist?](#can-i-use-adt-as-a-base-for-my-modlist)
+  - [What's the difference between STD and Skyrim Modding Essentials (SME)?](#whats-the-difference-between-std-and-skyrim-modding-essentials-sme)
+  - [Can I use STD as a base for my modlist?](#can-i-use-std-as-a-base-for-my-modlist)
   - [The game starts zoomed in](#the-game-starts-zoomed-in)
-  - [No valid Game Data with mods in ADT:](#no-valid-game-data-with-mods-in-adt)
+  - [No valid Game Data with mods in STD:](#no-valid-game-data-with-mods-in-std)
   - [How can I improve performance of the list?](#how-can-i-improve-performance-of-the-list)
   - [Why is the SkyUI SDK not included?](#why-is-the-skyui-sdk-not-included)
-  - [What tools does ADT come with?](#what-tools-does-adt-come-with)
+  - [What tools does STD come with?](#what-tools-does-std-come-with)
   - [Toggle UI hotkey?](#toggle-ui-hotkey)
 - [Removing the Modlist](#removing-the-modlist)
 - [Credits and Thanks](#credits-and-thanks)
 - [Support](#support)
 
 ## Preamble
-Designed to be the mod author's tool kit, Althro's Dev tools comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libaries to build plugins with, a fully patched creation kit and modding libraries, it's the ideal playground to both work and build on.
+Designed to be the mod author's tool kit, Styyx Tooling for Dev comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libaries to build plugins with, a fully patched creation kit and modding libraries, it's the ideal playground to both work and build on. If you are led to the list thinking it's an ideal base to build your own modlist with, you've been misled, while it can be used for that, it's probably not what you want.
 
-And to prevent any confusion, ADT does use the version 1.6.1170 of Skyrim.
+And to prevent any confusion, STD does use the version 1.6.1170 of Skyrim.
 
 Full list of mods used can be found [here](https://loadorderlibrary.com/lists/adt)
 
@@ -70,11 +69,11 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 **GOG and other Languages aside from English are not supported due to how Wabbajack works.**.
 
-Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY NOT WORK** and I definitely don't bother supporting any of that.
+Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY OR MAY NOT WORK** and I definitely don't bother supporting any of that.
 
 ***
 
-If you can run the vanilla game, you can run ADT.
+If you can run the vanilla game, you can run STD.
 
 **NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that **.NET V9** will work as well, but I don't know.
 
@@ -82,24 +81,21 @@ Space required: Approx 19GB (downloads included).
 
 ## Installation
 
-Installing ADT is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
+Installing STD is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
 
 ### Pre-Installation
 
-Prior to installing ADT, please complete the following steps.
+Prior to installing STD, please complete the following steps.
 
-1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe), [.Net Runtime v5 desktop x64](https://dotnet.microsoft.com/download/dotnet/5.0/runtime) & [.Net 7 Desktop runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
-2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
-3. Fully disable OneDrive and any other programs which hook into user file areas.
-4. Fully uninstall Skyrim by deleting the folder and the Skyrim Special edition folder inside \Documents\My Games\.
-5. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location. If you only have one drive, look into LostDragonist's [SteamLibrary tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide).\
- !! You can skip this step if you already have a clean skyrim installation !!
-6. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
-7. Launch the game to the main menu and allow it to download the paid addon files.
-8. Install the [Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
-9.  Run it once and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
-10.  Close the creation kit and continue with the installation steps.
-11.  Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
+1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net 9 Desktop runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.11-windows-x64-installer).
+2. Make sure your skyrim install is cleaned and its files are not modded. Otherwise fully uninstall it and reinstall it.
+3. Change the language of the game to English, other languages are simply not supported.
+4. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
+5. Launch the game to the main menu and allow it to download the paid addon files.
+6. Install the [Special Edition Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
+7.  Run it once and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
+8.   Close the creation kit and continue with the installation steps.
+9.   Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will most likely** mess with the installation and, in the case of the latter, causes more problems than it solves.
 
 ### Wabbajack Installation
 
@@ -107,13 +103,13 @@ Prior to installing ADT, please complete the following steps.
 
 Once you have completed pre-installation, download the [latest version of Wabbajack]((https://github.com/wabbajack-tools/wabbajack/releases)) and place it in a folder such as `C:\Games\Wabbajack`. Do not place it in program files, on your desktop or in your downloads folder. I recommend placing it on an SSD as it will work quicker on there.
 
-#### Downloading and Installing ADT
+#### Downloading and Installing STD
 
-Downloading and installing ADT can take a while depending on your internet connection and computer. To install ADT, complete the following steps.
+Downloading and installing STD can take a while depending on your internet connection and computer. To install STD, complete the following steps.
 
 1. Open Wabbajack and click on browse modlists.
-2. Press the download button on ADT and wait for it to download.
-3. Set the installation folder to be somewhere like `C:\Games\ADT`. **Do not install it to your desktop or downloads folder.**
+2. Press the download button on STD and wait for it to download.
+3. Set the installation folder to be somewhere like `C:\Games\STD`. **Do not install it to your desktop or downloads folder.**
 4. The download location does not need to be on a SSD but it makes installing a bit faster.
 5. Press the play button to begin.
 6. Go and read through this readme again.
@@ -124,8 +120,8 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Could not download x:
 	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
-	- **Make sure you have downloaded the Creation Kit for Special Edition and not the old Creation Kit for Legendary Edition!**
- 	- **Make sure your version of Rare Curios is from within the Game and not from verifying with steam**
+	- **Make sure you have downloaded the Creation Kit for Special Edition and not the ancient Creation Kit for Legendary Edition!**
+ 	- **Make sure your version of Rare Curios is from within the Game and not from verifying with steam** if you think this is dumb for a list without AE DLC support, i do so as well, please join the wabbajack discord server an tell them cause I'm forced to require it. Same goes if you don't know how to install it, I do not support issues the app administration created.
 
 - x is not a whitelisted download:
 
@@ -151,19 +147,14 @@ This replaces the old BethINI and can be started from within mod organizer. Just
 Open the installation folder and double click on the program called `ModOrganizer.exe`. 
 
 Make sure the dropdown box on the right is set to `SKSE` and press the `Run` button.
-
-### In-Game MCM options
-`ADT has no MCM options required.`
-
-- This serves as a placeholder in case you want to use the Readme as some sort of template.
 	
-## Adding mods to ADT
+## Adding mods to STD
 
 All the tools you require to add mods to this list are included in the download. If you want some general tips on how to safely mod, visit our [Modding Tutorials](https://github.com/The-Animonculory/Modding-Resources) repository. Adding mods is your own responsibility and I will not provide any type of support for that whatsoever.
 
 ### Anniversary Edition
 
-ADT supports the latest verison of Skyrim, but **does not require** the paid update and also does not include it. If you still want to use it, see [Adding mods to ADT](##Adding-mods-to-ADT).
+STD supports the latest verison of Skyrim, but **does not require** the paid update and also does not include it. If you still want to use it, see [Adding mods to STD](##Adding-mods-to-STD).
 
 ## Updating the modlist
 
@@ -177,11 +168,11 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 Yes, this basically just means that the mod was not downloaded from nexus so MO2 doesn't fully know where the mod came from.
 
-### What's the difference between ADT and Skyrim Modding Essentials (SME)?
+### What's the difference between STD and Skyrim Modding Essentials (SME)?
 
-SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. ADT is for mod-authors who want a blank canvas to build/test their creations on. Whilst there is some overlap, they are aimed at different audiences.
+SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. STD is for mod-authors who want a blank canvas to build/test their creations on. Whilst there is some overlap, they are aimed at different audiences.
 
-### Can I use ADT as a base for my modlist?
+### Can I use STD as a base for my modlist?
 
 Yes you can, but I would recommend using Skyrim Modding Essentials (SME) for that as it is made for that very purpose.
 
@@ -189,7 +180,7 @@ Yes you can, but I would recommend using Skyrim Modding Essentials (SME) for tha
 
 Adjust your resolution with either BethINI Pie or SSE Display Tweaks
 
-### No valid Game Data with mods in ADT:
+### No valid Game Data with mods in STD:
 
 This just means MO2 does not know the location of the files is still valid even if they're not in the data folder or the mod is meant as a resource so it doesn't actually need to be loaded anyway. That's not an issue no matter what and you can safely ignore it.
 
@@ -201,9 +192,9 @@ Literally by getting a better PC. This list comes with only vanilla visuals and 
 
 Due to errors with downloading the file from google drive, it's not included. If you want to make MCM stuff, you can get it from [this link](https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?usp=sharing&resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ) and install it, but this is not a supported action, just some information in case you need the SkyUI SDK.
 
-### What tools does ADT come with?
+### What tools does STD come with?
 
-The following tools are present in ADT:
+The following tools are present in STD:
 - Bethesda Asset Extractor
 - Bodyslide & Outfit Studio
 - Cathedral Assets Optimizer
@@ -217,7 +208,7 @@ The following tools are present in ADT:
 - Synthesis
 - xEdit
 
-ADT also comes with various dev libraries like:
+STD also comes with various dev libraries like:
 - CLibrary
 - MCM Helper SDK
 - Dylbills Papyrus Functions
@@ -238,4 +229,6 @@ Simply delete the folder the modlist is in and you have uninstalled it.
 
 ## Support 
 
-Ideally you'd need nothing but this readme to install the list and get started. If I forgot something, please ask in the linked discord server or in the issue tab here on GitHub. I do not offer support for anything I have already written here.
+I only support the latest version of the modlist. No exceptions. \
+If you encounter bugs with the list as is open a new issue on the list's github page, but check if it's not already mentioned cause duplicate bug reports do not mean it will be magically fixed faster. \
+Support for the list is only for the base list as is, I do not provide support for adding stuff, removing stuff or anything in between. I also do not provide support for working with the tools, you have internet, use it!
