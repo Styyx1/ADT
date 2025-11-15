@@ -1,6 +1,81 @@
 # Changelog
 
+## 8.0.0 - Simplicity again
 
+### Key Information:
+- removed 1.5.97 profile again, the list is now running on the latest steam version only
+- updated all mods that had an update
+- removed ENB stuff since it doesn't make a lot of sense to have in ADT
+- switched alt start mod to optional quickstart
+- a few removals of mods not really fitting ADT
+- added a few basic fixes
+- renamed patches folder cause it had a typo :)
+
+### Updates:
+- Dylbills Papyrus Functions
+- BodySlide and Outfit Studio
+- Assorted mesh fixes
+- FormList Manipulator - FLM
+- Andrealphus' Papyrus Functions
+- Base Object Swapper
+- Better Third Person Selection - BTPS
+- CoMAP
+- LOD Unloading Bug Fix
+- PhotoMode
+- Camera Persistence Fixes
+- More Informative Console
+- LeveledList Crash Fix
+- Crash Logger SSE AE VR - PDB support
+- powerofthree Papyrus Extender
+- powerofthree's Tweaks
+- Unofficial Skyrim Modder's Patch - USMP SE
+- Unofficial Skyrim Special Edition Patch - USSEP
+- xLodGen
+- DyndoLOD (only the tool. If you actually make LODs or whatever, check [Dyndolod's Documentation](https://dyndolod.info/Downloads#Additional-Requirements))
+- Creation Kit and CK Platform Extended to the latest versions
+
+### Removed:
+- ENB and all addons for it (doesn't really fit ADT and slows down loading the game a bit which is annoying when testing mods)
+- Custom Console (deleted mod)
+- Extended Console (deleted mod)
+- Pyramid Utils (deleted mod)
+- Skyrim Priority SE AE - CPU Performance FPS Optimizer (does nothing for 99% of users)
+- Handy Crafting and Spells
+- Stay at the System Page - NG (replaced by QUI)
+- SkyHUD (TrueHUD covers HUD already)
+- Alternate Start - Live another life
+- Tamriel extended (used for Dyndolod, doesn't fit ADT imo)
+- Complete Widescreen fix (may be added back at some point once someone tells me the exact steps needed for widescreen support. Removed for now since I don't have a widescreen)
+- zEdit (can't deal with new version headers of esps)
+- Ultimate Immersion Toggle (got replaced with toggle UI)
+
+### Added:
+- Optional Quickstart (simpler and faster to get into the game than ASLAL)
+- Knotwork (replaces Quest Journal Fixes and Difficulty Persistence Fix)
+- QUI (replaces Stay At The System Page NG)
+- CoMAP - Marker Dev Kit (disabled by default. Contains examples and documentation)
+- Hunters Not Bandits (was removed from USMP)
+- No More Blinding Fog (was removed from USMP)
+- High Gate Ruins Puzzle Reset Fix (was removed from USMP)
+- College of Winterhold Quest Start Fixes (was removed from USMP)
+- King Olaf's Fire Festival Not Ending Fix (was removed from USMP)
+- Magic Student (WIChangeLocation04) Quest Fix (was removed from USMP)
+- Neloth's Experimental Subject Quest (DLC2TTR4a) Fix (was removed from USMP)
+- Bound Weapon Fix
+- Better AltTab
+- Media Keys Fix SKSE
+- Kill Caps Lock NG
+- Mute On Focus Loss
+- First Person Animation Teleport Bug Fix
+- Assorted Animation Fixes
+- Dynamic Books - A modder resource
+- Disable Havok Script Tweak Resource
+- Scrab's Papyrus Extender
+- Papyrus Ini Manipulator
+- Toggle UI
+- Octagon
+- Nif Optimizer
+- NifSkope version dev 10.1
 
 
 ## 7.0 - 2 game versions 1 list 
