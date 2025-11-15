@@ -1,0 +1,55 @@
+name: Bug Report
+description: Report an issue with the modlist, its tools, or its configuration.
+title: "[Bug] <Short Description>"
+labels: ["bug"]
+assignees: ["Styyx1"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!  
+        Please fill out all applicable fields so the problem can be reproduced and fixed.
+
+  - type: input
+    id: modlist-version
+    attributes:
+      label: Modlist Version
+      description: Example: "1.3.2"
+      placeholder: "Version"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: download-method
+    attributes:
+      label: Wabbajack Download Method
+      description: How did you download mods during installation?
+      options:
+        - Nexus Premium (automated)
+        - Manual (non-premium)
+      validations:
+        required: true
+
+  - type: input
+    id: install-path
+    attributes:
+      label: Installation Path
+      description: Provide the full path to your modlist installation (e.g., D:\WJ\STD)
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: What happened?
+      description: Describe the issue clearly and concisely.
+      placeholder: "Explain what went wrong…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Launch using MO2
