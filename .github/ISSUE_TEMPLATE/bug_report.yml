@@ -37,13 +37,6 @@ body:
       label: Installation Path
       description: Provide the full path to your modlist installation (e.g., D:\Games\ADT)
 
-  - type: input
-    id: skyrim-version
-    attributes:
-      label: Skyrim Version
-      description: Example "64-bit Anniversary Edition" or "Special Edition 1.6.x"
-      placeholder: Version
-
   - type: textarea
     id: bug-description
     attributes:
