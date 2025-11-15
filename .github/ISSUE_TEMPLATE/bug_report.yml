@@ -35,7 +35,7 @@ body:
     id: install-path
     attributes:
       label: Installation Path
-      description: Provide the full path to your modlist installation (e.g., D:\Games\ADT)
+      description: Provide the full path to your modlist installation (e.g., D:\Games\STD)
 
   - type: textarea
     id: bug-description
