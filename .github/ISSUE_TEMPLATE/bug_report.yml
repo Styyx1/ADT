@@ -15,7 +15,7 @@ body:
     id: modlist-version
     attributes:
       label: Modlist Version
-      description: Example: "1.3.2"
+      description: Example "1.3.2"
       placeholder: "Version"
     validations:
       required: true
