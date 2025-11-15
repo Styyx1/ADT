@@ -8,15 +8,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report an issue!  
+        Thanks for taking the time to report an issue!
         Please fill out all applicable fields so the problem can be reproduced and fixed.
 
   - type: input
     id: modlist-version
     attributes:
       label: Modlist Version
-      description: Example "1.3.2"
-      placeholder: "Version"
+      description: Example: "1.3.2"
+      placeholder: Version
     validations:
       required: true
 
@@ -28,21 +28,28 @@ body:
       options:
         - Nexus Premium (automated)
         - Manual (non-premium)
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: install-path
     attributes:
       label: Installation Path
-      description: Provide the full path to your modlist installation (e.g., D:\WJ\STD)
+      description: Provide the full path to your modlist installation (e.g., D:\Games\ADT)
+
+  - type: input
+    id: skyrim-version
+    attributes:
+      label: Skyrim Version
+      description: Example: "64-bit Anniversary Edition" or "Special Edition 1.6.x"
+      placeholder: Version
 
   - type: textarea
     id: bug-description
     attributes:
       label: What happened?
       description: Describe the issue clearly and concisely.
-      placeholder: "Explain what went wrong…"
+      placeholder: Explain what went wrong…
     validations:
       required: true
 
@@ -52,4 +59,38 @@ body:
       label: Steps to Reproduce
       description: Provide clear step-by-step instructions to reproduce the issue.
       placeholder: |
-        1. Launch using MO2
+        1. Launch MO2 with the profile
+        2. Start new game / load save
+        3. Perform X action
+        4. Crash occurs
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What *should* have happened?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs & Crash Reports
+      description: |
+        Provide any relevant logs:
+        - Crash logs (CrashLogger)
+        - Papyrus logs
+        - Wabbajack installation log
+        - MO2 logs
+        Upload them as attachments or paste into a code block.
+      placeholder: |
+        ```
+        <paste logs here>
+        ```
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Context
+      description: Include screenshots, hardware info, mods added/removed, etc.
+      placeholder: Anything else we should know?
