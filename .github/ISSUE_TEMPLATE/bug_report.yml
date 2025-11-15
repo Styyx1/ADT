@@ -15,7 +15,7 @@ body:
     id: modlist-version
     attributes:
       label: Modlist Version
-      description: Example: "1.3.2"
+      description: Example "1.3.2"
       placeholder: Version
     validations:
       required: true
@@ -41,7 +41,7 @@ body:
     id: skyrim-version
     attributes:
       label: Skyrim Version
-      description: Example: "64-bit Anniversary Edition" or "Special Edition 1.6.x"
+      description: Example "64-bit Anniversary Edition" or "Special Edition 1.6.x"
       placeholder: Version
 
   - type: textarea
