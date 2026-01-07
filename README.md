@@ -42,10 +42,10 @@ Wabbajack Modlist Installer by Althro and Styyx
 - [Updating the modlist](#updating-the-modlist)
 - [FAQ](#faq)
   - [Some downloaded files have a red triangle, is that normal?](#some-downloaded-files-have-a-red-triangle-is-that-normal)
-  - [What's the difference between STD and Skyrim Modding Essentials (SME)?](#whats-the-difference-between-std-and-skyrim-modding-essentials-sme)
+  - [What's the difference between STD and Al and Styyx's Setup of Skyrim (ASSOS)?](#whats-the-difference-between-std-and-al-and-styyxs-setup-of-skyrim-assos)
   - [Can I use STD as a base for my modlist?](#can-i-use-std-as-a-base-for-my-modlist)
   - [The game starts zoomed in](#the-game-starts-zoomed-in)
-  - [No valid Game Data with mods in STD:](#no-valid-game-data-with-mods-in-std)
+  - [No valid Game Data with mods in STD](#no-valid-game-data-with-mods-in-std)
   - [How can I improve performance of the list?](#how-can-i-improve-performance-of-the-list)
   - [Why is the SkyUI SDK not included?](#why-is-the-skyui-sdk-not-included)
   - [What tools does STD come with?](#what-tools-does-std-come-with)
@@ -55,11 +55,13 @@ Wabbajack Modlist Installer by Althro and Styyx
 - [Support](#support)
 
 ## Preamble
-Designed to be the mod author's tool kit, Styyx Tooling for Dev comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libaries to build plugins with, a fully patched creation kit and modding libraries, it's the ideal playground to both work and build on. If you are led to the list thinking it's an ideal base to build your own modlist with, you've been misled, while it can be used for that, it's probably not what you want.
+Designed to be the mod author’s tool kit, **Styyx’s Tooling for Dev (STD)** comes with everything you need to create and test your mods. Featuring mandatory engine fixes, DLL libraries to build plugins with, a fully patched Creation Kit and modding libraries, it’s the ideal playground to build and work on.
 
-And to prevent any confusion, STD does use the version 1.6.1170 of Skyrim.
+This list is not designed for building a modlist with. We recommend using **Al and Styyx's Setup of Skyrim (ASSOS)** which can be found [here](https://github.com/The-Animonculory/ASSOS).
 
-Full list of mods used can be found [here](https://loadorderlibrary.com/lists/adt)
+STD uses SkyrimSE executable version **1.6.1170**, but **does not require** the paid update to the game.
+
+The full list of mods used can be found [here](https://loadorderlibrary.com/lists/adt).
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
@@ -69,19 +71,19 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 **GOG and other Languages aside from English are not supported due to how Wabbajack works.**.
 
-Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY OR MAY NOT WORK** and I definitely don't bother supporting any of that.
+Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY OR MAY NOT WORK** and we definitely don't bother supporting any of that.
 
 ***
 
 If you can run the vanilla game, you can run STD.
 
-**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that **.NET V9** will work as well, but I don't know.
+**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that **.NET V9** will work as well, but we don't know.
 
 Space required: Approx 19GB (downloads included).
 
 ## Installation
 
-Installing STD is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
+Installing STD is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
 
 ### Pre-Installation
 
@@ -96,6 +98,8 @@ Prior to installing STD, please complete the following steps.
 7.  Run it once and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
 8.   Close the creation kit and continue with the installation steps.
 9.   Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will most likely** mess with the installation and, in the case of the latter, causes more problems than it solves.
+
+****
 
 ### Wabbajack Installation
 
@@ -121,11 +125,12 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 - Could not download x:
 	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
 	- **Make sure you have downloaded the Creation Kit for Special Edition and not the ancient Creation Kit for Legendary Edition!**
- 	- **Make sure your version of Rare Curios is from within the Game and not from verifying with steam** if you think this is dumb for a list without AE DLC support, i do so as well, please join the wabbajack discord server an tell them cause I'm forced to require it. Same goes if you don't know how to install it, I do not support issues the app administration created.
+ 	- **Make sure your version of Rare Curios is from within the Game and not from verifying with steam**
+    	- If you think this is daft for a list without AE DLC support, we do so as well. You are welcome to complain to Wabbajack about this along with any other issues you have with the application. We do not support any issues with the application.
 
 - x is not a whitelisted download:
 
-	 - This will happen when I update the modlist. Please check if there is a new update or wait until you see a release ping.
+	 - This will happen when we update the modlist. Please check if there is a new update or wait until you see a release ping.
 
 - Wabbajack could not find my game folder:
 
@@ -150,7 +155,7 @@ Make sure the dropdown box on the right is set to `SKSE` and press the `Run` but
 	
 ## Adding mods to STD
 
-All the tools you require to add mods to this list are included in the download. If you want some general tips on how to safely mod, visit our [Modding Tutorials](https://github.com/The-Animonculory/Modding-Resources) repository. Adding mods is your own responsibility and I will not provide any type of support for that whatsoever.
+All the tools you require to add mods to this list are included in the download. If you want some general tips on how to safely mod, visit our [Modding Tutorials](https://github.com/The-Animonculory/Modding-Resources) repository. Adding mods is your own responsibility and we will not provide any type of support for that whatsoever.
 
 ### Anniversary Edition
 
@@ -168,25 +173,31 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 Yes, this basically just means that the mod was not downloaded from nexus so MO2 doesn't fully know where the mod came from.
 
-### What's the difference between STD and Skyrim Modding Essentials (SME)?
+### What's the difference between STD and [Al and Styyx's Setup of Skyrim (ASSOS)](https://github.com/The-Animonculory/ASSOS)?
 
-SME is aimed at users wanting to create their own list and comes with a lot more content inlcuding mesh fixes and minor tweaks. STD is for mod-authors who want a blank canvas to build/test their creations on. Whilst there is some overlap, they are aimed at different audiences.
+(ASSOS) is designed to serve as a base to build your own list off. It comes with a lot more content including minor tweaks and mesh fixes.
+
+STD is for mod-authors who want a blank canvas to build/test their creations on.
 
 ### Can I use STD as a base for my modlist?
 
-Yes you can, but I would recommend using Skyrim Modding Essentials (SME) for that as it is made for that very purpose.
+Whilst you can, we would recommend **(ASSOS)** as that is designed to serve as a base to build off. You can find it [here](https://github.com/The-Animonculory/ASSOS).
 
 ### The game starts zoomed in
 
-Adjust your resolution with either BethINI Pie or SSE Display Tweaks
+Adjust your resolution with either BethINI Pie or SSE Display Tweaks.
 
-### No valid Game Data with mods in STD:
+### No valid Game Data with mods in STD
 
-This just means MO2 does not know the location of the files is still valid even if they're not in the data folder or the mod is meant as a resource so it doesn't actually need to be loaded anyway. That's not an issue no matter what and you can safely ignore it.
+MO2 does not know the location of the files. The files are still valid even if they are not in the data folder. They are meant to be used as a resource, so do not need to be loaded anyway. 
+
+**TLDR:** You can safely ignore this.
 
 ### How can I improve performance of the list?
 
-Literally by getting a better PC. This list comes with only vanilla visuals and that means you'd struggle running the vanilla game already
+You’re joking right? 
+
+This is the base game. The only way you can improve it is by literally buying a new PC.
 
 ### Why is the SkyUI SDK not included?
 
@@ -216,7 +227,6 @@ STD also comes with various dev libraries like:
 ### Toggle UI hotkey?
 Num-
 
-
 ## Removing the Modlist
 Simply delete the folder the modlist is in and you have uninstalled it.
 
@@ -229,6 +239,8 @@ Simply delete the folder the modlist is in and you have uninstalled it.
 
 ## Support 
 
-I only support the latest version of the modlist. No exceptions. \
-If you encounter bugs with the list as is open a new issue on the list's github page, but check if it's not already mentioned cause duplicate bug reports do not mean it will be magically fixed faster. \
-Support for the list is only for the base list as is, I do not provide support for adding stuff, removing stuff or anything in between. I also do not provide support for working with the tools, you have internet, use it!
+Only the latest version of the modlist is supported. No exceptions.
+
+If you encounter bugs with the list as is open a new issue on the list's github page, but check if it's not already mentioned cause duplicate bug reports do not mean it will be magically fixed faster.
+
+Support for the list is only for the base list as is, no support provided for adding stuff, removing stuff or anything in between.
