@@ -26,7 +26,6 @@ Wabbajack Modlist Installer by Althro and Styyx
 ## Contents 
 - [Preamble](#preamble)
 - [System Requirements](#system-requirements)
-  - [Disclaimer](#disclaimer)
 - [Installation](#installation)
   - [Pre-Installation](#pre-installation)
   - [Wabbajack Installation](#wabbajack-installation)
@@ -41,15 +40,6 @@ Wabbajack Modlist Installer by Althro and Styyx
   - [Anniversary Edition](#anniversary-edition)
 - [Updating the modlist](#updating-the-modlist)
 - [FAQ](#faq)
-  - [Some downloaded files have a red triangle, is that normal?](#some-downloaded-files-have-a-red-triangle-is-that-normal)
-  - [What's the difference between STD and Al and Styyx's Setup of Skyrim (ASSOS)?](#whats-the-difference-between-std-and-al-and-styyxs-setup-of-skyrim-assos)
-  - [Can I use STD as a base for my modlist?](#can-i-use-std-as-a-base-for-my-modlist)
-  - [The game starts zoomed in](#the-game-starts-zoomed-in)
-  - [No valid Game Data with mods in STD](#no-valid-game-data-with-mods-in-std)
-  - [How can I improve performance of the list?](#how-can-i-improve-performance-of-the-list)
-  - [Why is the SkyUI SDK not included?](#why-is-the-skyui-sdk-not-included)
-  - [What tools does STD come with?](#what-tools-does-std-come-with)
-  - [Toggle UI hotkey?](#toggle-ui-hotkey)
 - [Removing the Modlist](#removing-the-modlist)
 - [Credits and Thanks](#credits-and-thanks)
 - [Support](#support)
@@ -63,23 +53,26 @@ STD uses SkyrimSE executable version **1.6.1170**, but **does not require** the 
 
 The full list of mods used can be found [here](https://loadorderlibrary.com/lists/adt).
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+>[!NOTE]
+>This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 ## System Requirements
 
-### Disclaimer
+> [!WARNING]
+> Only Windows 10 and 11 are fully supported with Wabbajack (WJ). We do not support any other operating systems.
 
-**GOG and other Languages aside from English are not supported due to how Wabbajack works.**.
-
-Only, Windows 10 and 11 are fully supported with Wabbajack. LTSC, special variants, lightened editions or any other modified variant, this includes any variant of linux, **MAY OR MAY NOT WORK** and we definitely don't bother supporting any of that.
+Whilst this list ***MAY*** work with Linux or other variants of Windows, no support is offered for them either officially or unofficially. We don't use them or have any intention of doing so, so can't support them.
 
 ***
 
-If you can run the vanilla game, you can run STD.
-
-**NOTE**: You need to have **.NET V7 & V8** and **Java Runtime Environment** installed to make the full use of this list, chances are that **.NET V9** will work as well, but we don't know.
-
-Space required: Approx 19GB (downloads included).
+| | Requirements | Info |
+| :---: | :---: | :---: |
+| **Game** | Clean **Steam English version** | GOG and Epic Games **not supported.**|
+| **Operating System** | Windows 11 (64bit) | Only Windows 11 is currently supported by Microsoft. |
+| **CPU** | 4 Core/ 4 Threads | Anything newer than a 3rd gen i5 or 1st gen Ryzen. ARM & 32bit not supported. |
+| **RAM** | 16GB | 32GB preferrable, but 16GB is fine. |
+| **GPU** | 4GB Vram | Any modern card will be fine. |
+| **Space** | 19GB | SSD strongly recommended. |
 
 ## Installation
 
@@ -87,17 +80,24 @@ Installing STD is relatively easy and, if you have Nexus Premium, will be a simp
 
 ### Pre-Installation
 
+> [!CAUTION]
+> [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe), [.Net 9 Desktop runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.11-windows-x64-installer) & [Skyrim Special Edition Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/) are required. Download them by clicking on the links.
+
 Prior to installing STD, please complete the following steps.
 
-1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net 9 Desktop runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.11-windows-x64-installer).
-2. Make sure your skyrim install is cleaned and its files are not modded. Otherwise fully uninstall it and reinstall it.
-3. Change the language of the game to English, other languages are simply not supported.
-4. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
-5. Launch the game to the main menu and allow it to download the paid addon files.
-6. Install the [Special Edition Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/).
-7.  Run it once and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
-8.   Close the creation kit and continue with the installation steps.
-9.   Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will most likely** mess with the installation and, in the case of the latter, causes more problems than it solves.
+1. Make sure your skyrim install is cleaned and its files are not modded. Otherwise fully uninstall it and reinstall it.
+2. Change the language of the game to English, other languages are simply not supported.
+3. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
+4. Launch the game to the main menu and allow it to download the paid addon files.
+5.  Run the Creation Kit and select `No` when it asks about unpacking scripts (You can select ``Yes`` or ``No`` actually, but unpacking it takes forever).
+6.   Close the creation kit and continue with the installation steps.
+7.   Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will most likely** mess with the installation and, in the case of the latter, causes more problems than it solves.
+
+> [!TIP]
+> If your game is not a fresh install, it is still worth making sure you have the paid addon files all downloaded.
+
+>[!CAUTION]
+>**Make sure your version of Rare Curios is from within the Game and not from verifying with Steam.**
 
 ****
 
@@ -124,9 +124,10 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Could not download x:
 	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
-	- **Make sure you have downloaded the Creation Kit for Special Edition and not the ancient Creation Kit for Legendary Edition!**
- 	- **Make sure your version of Rare Curios is from within the Game and not from verifying with steam**
-    	- If you think this is daft for a list without AE DLC support, we do so as well. You are welcome to complain to Wabbajack about this along with any other issues you have with the application. We do not support any issues with the application.
+
+- Unable to download Data_ccbgssse037-curios
+    - You missed the big warning sign in [Pre-Installation](#pre-installation). Go back there and read it.
+        - If you think this is daft for a list without AE DLC support, we do so as well. You are welcome to complain to Wabbajack about this along with any other issues you have with the application. We do not support any issues with the application.
 
 - x is not a whitelisted download:
 
@@ -159,53 +160,63 @@ All the tools you require to add mods to this list are included in the download.
 
 ### Anniversary Edition
 
-STD supports the latest verison of Skyrim, but **does not require** the paid update and also does not include it. If you still want to use it, see [Adding mods to STD](##Adding-mods-to-STD).
+>[!NOTE]
+> STD **does not require** the paid Anniversary Edition DLC or include patches for it. 
+
+Do not confuse Anniversary Edition with the game's version, which is a number! The list uses SkyrimSE executable version **1.6.1170**.
+
+If you want to use the paid update, see [Adding mods to STD](##Adding-mods-to-STD).
 
 ## Updating the modlist
 
 Before updating, please check the changelog and back up your saves. You may need to start a new game after certain updates.
 
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating.
+Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. 
+
+>[!CAUTION]
+> Any mods you have added will be **deleted** when updating.
 
 ## FAQ
 
-### Some downloaded files have a red triangle, is that normal?
+**Q: Some downloaded files have a red triangle, is that normal?**
 
-Yes, this basically just means that the mod was not downloaded from nexus so MO2 doesn't fully know where the mod came from.
+A: Yes, this basically just means that the mod was not downloaded from nexus so MO2 doesn't fully know where the mod came from.
 
-### What's the difference between STD and [Al and Styyx's Setup of Skyrim (ASSOS)](https://github.com/The-Animonculory/ASSOS)?
+**Q: What's the difference between STD and [Al and Styyx's Setup of Skyrim (ASSOS)](https://github.com/The-Animonculory/ASSOS)?**
 
-(ASSOS) is designed to serve as a base to build your own list off. It comes with a lot more content including minor tweaks and mesh fixes.
+A: ASSOS is designed to serve as a base to build your own list off. It comes with a lot more content including minor tweaks and mesh fixes.
 
 STD is for mod-authors who want a blank canvas to build/test their creations on.
 
-### Can I use STD as a base for my modlist?
+**Q: Can I use STD as a base for my modlist?**
 
-Whilst you can, we would recommend **(ASSOS)** as that is designed to serve as a base to build off. You can find it [here](https://github.com/The-Animonculory/ASSOS).
+A: Whilst you can, we would recommend **(ASSOS)** as that is designed to serve as a base to build off. You can find it [here](https://github.com/The-Animonculory/ASSOS).
 
-### The game starts zoomed in
+**Q: The game starts zoomed in**
 
-Adjust your resolution with either BethINI Pie or SSE Display Tweaks.
+A: Adjust your resolution with either BethINI Pie or SSE Display Tweaks.
 
-### No valid Game Data with mods in STD
+**Q: No valid Game Data with mods in STD**
 
-MO2 does not know the location of the files. The files are still valid even if they are not in the data folder. They are meant to be used as a resource, so do not need to be loaded anyway. 
+A: MO2 does not know the location of the files. The files are still valid even if they are not in the data folder. They are meant to be used as a resource, so do not need to be loaded anyway. 
 
 **TLDR:** You can safely ignore this.
 
-### How can I improve performance of the list?
+**Q: How can I improve performance of the list?**
 
-You’re joking right? 
+A: You’re joking right? 
 
 This is the base game. The only way you can improve it is by literally buying a new PC.
 
-### Why is the SkyUI SDK not included?
+**Q: Why is the SkyUI SDK not included?**
 
-Due to errors with downloading the file from google drive, it's not included. If you want to make MCM stuff, you can get it from [this link](https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?usp=sharing&resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ) and install it, but this is not a supported action, just some information in case you need the SkyUI SDK.
+A: Due to errors with downloading the file from google drive, it's not included.\
 
-### What tools does STD come with?
+If you want to make MCM's, you can get the files from [this link](https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?usp=sharing&resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ) and install them. This is **not a supported action**, just some information in case you need the SkyUI SDK.
 
-The following tools are present in STD:
+**Q: What tools does STD come with?**
+
+A: The following tools are present in STD:
 - Bethesda Asset Extractor
 - Bodyslide & Outfit Studio
 - Cathedral Assets Optimizer
@@ -224,17 +235,20 @@ STD also comes with various dev libraries like:
 - MCM Helper SDK
 - Dylbills Papyrus Functions
 
-### Toggle UI hotkey?
-Num-
+**Q: Why doesn't it have *insert name of mod/tool here*?** \
+A: The philosophy behind STD is that, where possible, every mod used is open source, which includes the DLL mods. Certain mods are not open source, so they are not included or alternatives are used.
+
+**Q: Toggle UI hotkey?**
+A: Num-
 
 ## Removing the Modlist
 Simply delete the folder the modlist is in and you have uninstalled it.
 
 ## Credits and Thanks
 
-- Althro for allowing me to continue to work on it.
+- Althro for allowing me to continue to work on it and readme tweaks.
 - _YOU_ for reading this.
-- The Aetherius Modding Team.
+- The Aetherius Modding Team & Animonculory Creative Corner Team.
 - Halgari and everyone the WJ Team.
 
 ## Support 
