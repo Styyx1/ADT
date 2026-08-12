@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.2.0
+
+### Key Information:
+- Added Papyrus Compiler App (does not work on linux sadly)
+- Added NPC Perk Storage
+- Added FLICK Menu
+
 ## 8.0.0 - Simplicity again
 
 ### Key Information:
