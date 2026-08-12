@@ -76,7 +76,7 @@ Whilst this list ***MAY*** work with Linux or other variants of Windows, no supp
 
 ## Installation
 
-Installing STD is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
+Installing STD is relatively easy and even without nexus premium, it will be quick. I do not recommend paying for premium for a list this size. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
 
 ### Pre-Installation
 

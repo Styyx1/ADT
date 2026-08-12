@@ -7,6 +7,31 @@
 - Added NPC Perk Storage
 - Added FLICK Menu
 
+## 9.1.0 - Changes?
+
+### Key Information:
+- changed CK to default light mode for linux compatibility
+- updated a bunch of mods
+- removed 1 closed source mod and 1 source barely updated mod (or it is, I didn't check)
+- Updated to SkyUI 6+
+
+### Added
+- Global Variable Framework
+- GetActorValuePercentage - Fix
+- HasMagicEffect - Condition Tweak
+- Effect Animation Framework
+
+### Updates:
+- basically all mods that had updates available
+
+### Removed:
+
+- SkyPatcher (source wasn't being updated last time i checked)
+- Container Item Distributor (it's closed source now)
+
+Not that it matters for you, but this update was fully done on linux. Huge thanks to Omni and [Jackify](https://github.com/Omni-guides/Jackify) to make this possible. 
+
+
 ## 8.0.0 - Simplicity again
 
 ### Key Information:
