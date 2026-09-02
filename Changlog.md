@@ -1,5 +1,119 @@
 # Changelog
 
+## 10.0.0 - New Skyrim Update
+
+### Key Information
+
+This is a quick update to have a test bench for the latest game update  
+Removed mods will slowly be put back as they update  
+
+### Updated
+
+- skse
+- address library
+- HasMagicEffect - Condition Tweak
+- GetActorValuePercentage - Fix
+- Media KEys Fix
+- Better AltTab
+- Auto Input Switch
+- CrashLogger
+- USSEP
+- Leveled list crash fix
+- auto parallax
+- save unbaker
+- po3 papyrus extender
+- papyrus utils
+- po3 tweaks
+- npc ai process fix
+- PEPE
+- AVG
+- Lexicon
+- Remove Orphaned Hazards
+- Invisible Rune Explosion Fix
+- Absorb XP Fix
+- Alchemy XP Fix
+- Stagger Effect Fix
+- Animated Static Reload Fix
+- Dual Casting Fix
+- RemoveAllItems Freeze Fix
+- Sound Record Distributor
+- Keyword Item Distributor
+- Base Object Swapper
+- Spell Perk Item Distributor
+- Camera Persistence Fix
+- Console PlusPlus
+- Console Commands Extender
+- Help Extender
+- More Informative Console
+- Console Util SSE - NG
+- Camera Follows
+- No Console Spam
+- MCM Helper
+- Display Tweaks
+- Open Animation Replacer
+- Paired Animation Improvements
+- Animation Queue Fix
+- Sprint Sneak Movement Speed Fix
+- Simple Dual Sheath
+- CoMAP
+- TrueHUD
+- Inventory Interface Information Injector
+- Photo Mode
+- Difficulty Global Variable
+- NPC Perk Storage
+- SKSE Menu Framework
+- Assorted Mesh Fixes
+- Dybills Papyrus Functions
+- Papyrus Ini Manipulator
+- Bodyslide
+- Engine Fixes
+- Bug Fixes SSE
+- Actor Limit Fix
+
+
+### Removed 
+
+(mind, I hope that most of the removals are temporary)
+
+- Log Watcher
+- Global Variable Framework
+- FLICK
+- Kris-Papyrus Extender
+- Andrealphus Papyrus Functions
+- RaceMenu
+- Contextual Crosshairs
+- SmoothCam
+- Conjuration Limit Fix
+- Vendor Respawn Fix
+- Dynamic Spell Description
+- Scaleform PP
+- Fix Notes for SkyUI
+- Formlist Manipulator
+- bash bug fix
+- scrambled bugs
+- Perk Adjuster
+- barter limit fix
+- jcontainers
+- advanced notifcation log
+- regular quicksaves menu
+- Immersive Equipment Display
+- script effect archetype crash fix
+- Toggle UI
+- fuz ro doh
+- recursion fix
+- combat music extender
+- equip enchantment fix
+- combat music fix
+- merge mapper
+- show my time
+- qui
+- qui update
+- bound weapon fix
+- custom skills framework
+- explosion collision fix
+- animobject swapper
+- better third person selection
+
 ## 9.2.0
 
 ### Key Information:
