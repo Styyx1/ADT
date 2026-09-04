@@ -1,5 +1,22 @@
 # Changelog
 
+## 10.0.1 - Hotfix
+
+### Key Information
+
+Fix for Engine Fixes being unable to be downloaded. Added back some mods that have been updated.
+Changed EngineFixes settings to enable regular quick saves and to have faster wait times.
+
+### Added
+
+- Regular Quicksave for System Menu
+- Global Variable Framework
+- Scaleform Translation Plus Plus
+- Barter Limit Fix
+- JContainers SE
+- Ultimate Immersion Toggle (replacement for ToggleUI)
+- Custom Skills Framework
+
 ## 10.0.0 - New Skyrim Update
 
 ### Key Information
@@ -70,8 +87,7 @@ Removed mods will slowly be put back as they update
 - Bug Fixes SSE
 - Actor Limit Fix
 
-
-### Removed 
+### Removed
 
 (mind, I hope that most of the removals are temporary)
 
@@ -116,39 +132,43 @@ Removed mods will slowly be put back as they update
 
 ## 9.2.0
 
-### Key Information:
+### Key Information
+
 - Added Papyrus Compiler App (does not work on linux sadly)
 - Added NPC Perk Storage
 - Added FLICK Menu
 
 ## 9.1.0 - Changes?
 
-### Key Information:
+### Key Information
+
 - changed CK to default light mode for linux compatibility
 - updated a bunch of mods
 - removed 1 closed source mod and 1 source barely updated mod (or it is, I didn't check)
 - Updated to SkyUI 6+
 
 ### Added
+
 - Global Variable Framework
 - GetActorValuePercentage - Fix
 - HasMagicEffect - Condition Tweak
 - Effect Animation Framework
 
-### Updates:
+### Updates
+
 - basically all mods that had updates available
 
-### Removed:
+### Removed
 
 - SkyPatcher (source wasn't being updated last time i checked)
 - Container Item Distributor (it's closed source now)
 
-Not that it matters for you, but this update was fully done on linux. Huge thanks to Omni and [Jackify](https://github.com/Omni-guides/Jackify) to make this possible. 
-
+Not that it matters for you, but this update was fully done on linux. Huge thanks to Omni and [Jackify](https://github.com/Omni-guides/Jackify) to make this possible.
 
 ## 8.0.0 - Simplicity again
 
-### Key Information:
+### Key Information
+
 - removed 1.5.97 profile again, the list is now running on the latest steam version only
 - updated all mods that had an update
 - removed ENB stuff since it doesn't make a lot of sense to have in ADT
@@ -157,7 +177,8 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - added a few basic fixes
 - renamed patches folder cause it had a typo :)
 
-### Updates:
+### Updates
+
 - Dylbills Papyrus Functions
 - BodySlide and Outfit Studio
 - Assorted mesh fixes
@@ -180,7 +201,8 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - DyndoLOD (only the tool. If you actually make LODs or whatever, check [Dyndolod's Documentation](https://dyndolod.info/Downloads#Additional-Requirements))
 - Creation Kit and CK Platform Extended to the latest versions
 
-### Removed:
+### Removed
+
 - ENB and all addons for it (doesn't really fit ADT and slows down loading the game a bit which is annoying when testing mods)
 - Custom Console (deleted mod)
 - Extended Console (deleted mod)
@@ -195,7 +217,8 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - zEdit (can't deal with new version headers of esps)
 - Ultimate Immersion Toggle (got replaced with toggle UI)
 
-### Added:
+### Added
+
 - Optional Quickstart (simpler and faster to get into the game than ASLAL)
 - Knotwork (replaces Quest Journal Fixes and Difficulty Persistence Fix)
 - QUI (replaces Stay At The System Page NG)
@@ -223,10 +246,10 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Nif Optimizer
 - NifSkope version dev 10.1
 
+## 7.0 - 2 game versions 1 list
 
-## 7.0 - 2 game versions 1 list 
+### Key Information
 
-### Key Information:
 - optional profile for Game verion 1.5.97 - select SKSE 1.5 to run it, obviously
 - should work well thanks to root builder
 - mods named with v15/15 are for 1.5.97 i just avoided ``.`` to not cause issues with modding tools
@@ -234,7 +257,8 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - MO2 Update
 - A few mod removals i thought wouldn't really be needed for mod making
 
-### Updates:
+### Updates
+
 - MO2
 - USSEP
 - USMP
@@ -255,21 +279,22 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Dylbills Papyrus Functions
 - Pyramid Utils
 
-### Removed:
+### Removed
+
 - Crafting Recipe Distributer
 - Dyndolod NG dll
 - Dyndolod Resources
 - More HUD
 - More HUD Inventory Edition
 
-### Added:
+### Added
+
 - Leveled List Crash Prevention
-
-
 
 ## 6.0 - "I'm back"
 
 ### Key Information
+
 - Complete rebuild utilising parts of Anvil and the older 5.x build
 - Updated Engine to be running 1.6.1170
 - Updated Creation Kit integration to utilise CK Platform Extended
@@ -278,7 +303,9 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Ofc, **Not Save Safe** but this is a tools list. It's not intended to play with.
 
 ## 5.2
+
 ### Updated
+
 - Address Library
 - SPID
 - ConsoleUtil NG
@@ -289,11 +316,14 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Weapon Styles for IED
 
 ## 5.1.4
+
 ### Notes
+
 - Fixed issue with CC content being required to download list
 - Updated BSA files to be on latest version to enable quicker install/compile (this has no effect on the game)
 
 ### Updated
+
 - Auto Input Switch,
 - Community Shaders,
 - ConsoleUtilSSE,
@@ -310,10 +340,13 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Sprint Sneak Movement Fix
 
 ### Added
+
 - ENB Light Detection Fix
 
 ## 5.1.3
+
 ### Notes
+
 - Fixed issue with CC content not being updated. This *should* fix the install issues.
 - Updated: XPMSSE
 
@@ -322,41 +355,51 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 <Details>
 
 ## 5.1.2
+
 ### Notes
+
 - **Likely to be the last version to support steam. Future versions may go GOG exclusive.**
 - Compiled against latest version of Skyrim and Creation Kit to allow for WJ auto-downgrades.
 - Updated: Address Library, Faster HDT, KILoader, SPID.
 
 ## 5.1.1
+
 ### Notes
+
 - Rebuilt entirely in new MO2 version to ensure compatability and category data was working.
 - No other changes.
 
 ## 5.1
+
 ### Updated
+
 - Mod Organizer
 
 ### Added
+
 - MO2 Audio Player Plugin
 - NIF Preview
 
 ## Althro's Dev Tools Version 5.0 - "The Re-Engineering"
+
 - Rebuild of list to utilise both Root Builder and Stock Game
 - Updated plugins which required updating
 - Re-Added a few mods to bring it in line with AVO-RE (Coming soon)
 - Sectioned off more bits to make it easier to enable/disable areas you don't want to use.
 
-
-
 ## 4.2
-**Updated** 
+
+**Updated**
+
 - Dybills Papyrus Functions,
 - PO3 Tweaks,
 - SPID,
 - USMP
 
 ## 4.1
+
 **Updated**
+
 - Base Object Swapper
 - Bodyslide and Outfit Studio
 - Community Shaders
@@ -372,20 +415,25 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - XP32 Maximum Skeleton
 
 **Added**
+
 - Light Limit Fix
 - Light Limit Fix - Particle Light instead of Fake Glow
 - Paired Animation Improvements
 
 ## 4.0
+
 **Info**
+
 - Complete rebuild of the list to utilise Stock Game. Sadly this does mean GOG is no longer compatible.
 - Removed mods & tools that did not align with the vision of the list as a mod authors toolkit.
 - Added **fully patched** Creation Kit alongside patched scripts for script authors.
 - Bumped MO2 version to enable faster processing.
 
 ## 3.6
+
 **Download Changes**
 *Updated*
+
 - Community Shaders,
 - ConsolePlusPlus,
 - Dylbills Papyrus Functions,
@@ -397,6 +445,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - xLodGen Terrain Tamriel,
 
 *Added*
+
 - Community Shaders Parallax,
 - FOMOD Creation Tool,
 - Grass Sampler Fix,
@@ -404,31 +453,41 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - TAA Sharpen
 
 ## 3.5
+
 **Info**
+
 - Fixed application redirects. GOG users will need to **adjust arugments** xEdit based tools to function properly. See [here](https://github.com/TES5Edit/TES5Edit/issues/1043#issuecomment-1265497955) for how to adjust xEdit based applications (xEdit, xLodGen, DynDOLOD/TexGen).
 
 **Download changes**
+
 - Updated: Community Shaders, Dylbills Papyrus Functions, DynDOLOD (Application), ENB Binaries, USMP, USSEP.
 - Added: Dual Casting Fix, Open Animation Replacer, RemoveAllItems Freeze Fix
 - Removed: Dynamic Animation Replacer
 
 ## 3.4
+
 **Info**
+
 - Updated: ANDR_Papyrus, Community Shaders, DynDOLOD (DLL, Resources, Application), ENBSeries, Faster HDT-SMP, Imrpoved Colours Reshade, Keyword Item Distributor.
 
 ## 3.3
+
 **Info**
+
 - Split Reshade and ENB section
 - Updated: USMP, SPID, Community Shaders, Grass Lighting, Papyrus Profiler, Advanced Notification Log, Faster HDT-SMP, Nemesis Creature Compat, Reshade, DynDOLOD.
 - Added: Twilight, Grass Collision, Subsurface Scattering, Improved colours Reshade.
 
 ## 3.2
+
 **Info**:
+
 - Updated: DynDOLOD, DynDOLOD DLL NG, DynDOLOD Resources.
 
 ## 3.1
 
 **Info**:
+
 - Updated: Actor Limit Fix, Advanced Notification Log NG, ANDR Papyrus Functions, Bug Fixes, dTRY PLugin Updates, DynDOLOD, DynDOLOD resources, ENB Series, Reshade Shaders
 - Removed: Shader Tools Updated
 - Added: Community Shaders, Faster HDT SMP, Grass Lighting, Script Effecr Archetype Crash Fix, SMP Wind, Tree LOD Lighting, Vendor Respawn Fix.
@@ -436,6 +495,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 ## 3.0 - "The Next Generation..."
 
 **Info**
+
 - Complete rebuild from scratch
 - Reworked all categories to focus more on essentials and themes
 - Added Animation Framework tools
@@ -450,6 +510,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 **Released**: 18/02/2023
 
 **Info**
+
 - Moved GOG plugins into new seperator to facilitate easier set-up.
 - Created new profile called "Animonculory Dev Tools" to replace split profiles.
 - Updated: DynDOLOD, DynDOLOD Resources, DynDOLOD DLL NG, ENB Binaries, Papyrus Extender, PO3 Tweaks. xLodGen.
@@ -457,6 +518,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 ## 2.2
 
 **Info**:
+
 - Fixed issue with ENB files not being included.
 - Updated: Crashlogger, USMP, SPID, Papyrus Tweaks.
 
@@ -491,7 +553,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 
 **Released**: `22/11/22`
 
-**Info**: 
+**Info**:
 
 - Updated mods with new versions to gain more native compatibility.
 - Added Fuz Ro Doh GOG version.
@@ -567,6 +629,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 **Build at:** `29/07/2022 12:50:19`
 
 **Info**:
+
 - Removed Rootbuilder due to errors with script compilation in the creation kit.
 - Download Size change: -1.8MB (Total: 10.4GB)
 - Install Size change: -3.9MB (Total: 12.5GB)
@@ -617,7 +680,6 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Removed [Oxygen Meter](https://www.nexusmods.com/skyrimspecialedition/mods/57452/?tab=files&file_id=243778)
 - Removed [Wash That Blood Off 2](https://www.nexusmods.com/skyrimspecialedition/mods/62358/?tab=files&file_id=258553)
 
-
 ## 0.3
 
 **Build at:** `19/07/2022 15:30`
@@ -628,6 +690,7 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Added [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)
 
 ## 0.2
+
 - Added [Crash Logger SSE VR](https://www.nexusmods.com/skyrimspecialedition/mods/59818)
 - Added [Octagon](https://www.nexusmods.com/skyrimspecialedition/mods/28773)
 - Added [Cathedral Assets Optimizer](https://www.nexusmods.com/skyrimspecialedition/mods/23316)
@@ -635,8 +698,8 @@ Not that it matters for you, but this update was fully done on linux. Huge thank
 - Removed [Crash Logger](https://www.nexusmods.com/skyrimspecialedition/mods/59596)
 - Removed [Skyrim Search](https://www.nexusmods.com/skyrimspecialedition/mods/45689)
 
-
 ## 0.1
+
 - Initial build
 
 <\Details>
