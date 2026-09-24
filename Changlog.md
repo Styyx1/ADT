@@ -1,5 +1,28 @@
 # Changelog
 
+## 10.1.0
+
+### Key Information
+
+Added back some mods, removed PCA again
+currently not included but will be once it allows to change game paths:  
+[Dovah Kit](https://www.nexusmods.com/skyrimspecialedition/mods/192694)
+You can install it on your own (if you are on windows, it's easy to do) but you currently can't point it to STD's stock game folder  
+It is a nice alternative to the Creation Kit.
+
+### Added
+
+- Log Watcher
+- FLICK
+- Andrealphus Papyrus Functions
+- Equip Enchantment Fix
+- Show My Time
+- AnimObject Swapper
+
+### Removed
+
+- Papyrus Compiler App (currently under moderation review on nexus for collecting user data for whatever reason)
+
 ## 10.0.1 - Hotfix
 
 ### Key Information
