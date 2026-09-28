@@ -1,5 +1,26 @@
 # Changelog
 
+## 10.2.0
+
+Added a CK alternative
+
+### Updated
+
+- Effect Animation Framework
+- NPC Perk Storage
+- Photo Mode
+- Dybill's papyrus functions
+- Actor Value Generator
+- Lexicon
+- FLICK
+- PO3 Papyrus Extender
+- Synthesis
+- Unofficial Skyrim Special Edition Patch USSEP
+
+### Added
+
+- Dovah Kit (a great Creation Kit alternative currently in an alpha state but working well for some things I tried)
+
 ## 10.1.0
 
 ### Key Information
